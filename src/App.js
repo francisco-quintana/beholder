@@ -1,24 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './css/tailwind.css'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="h-screen bg-gray-600 relative m-0">
+        <div className="m-auto flex flex-col text-2xl text-center items-center justify-center h-screen">
+        <div>
+        <p className="font-sans">Aqui se hara gloria</p>
+        </div>
+        </div>
+      </div>
     </div>
   );
 }
