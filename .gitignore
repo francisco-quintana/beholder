@@ -12,7 +12,7 @@
 /build
 
 #files
-/src/css/tailwind.css
+src/css/tailwind.css
 
 # misc
 .DS_Store
